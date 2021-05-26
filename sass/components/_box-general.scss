@@ -1,0 +1,13 @@
+@use 'fonts';
+* {
+    margin: 0;
+    padding: 0;
+    transition: 0.3s;
+    box-sizing: border-box;
+    font-family: fonts.$font-general;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
